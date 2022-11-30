@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "xavadigital/image-tooltip",
+  "version": "0.1.0",
+  "title": "Image Tooltip",
+  "category": "widgets",
+  "icon": "format-image",
+  "description": "A gutenberg block for adding images with a tooltip on click",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "image-tooltip",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": "file:./js/script.js",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "message": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

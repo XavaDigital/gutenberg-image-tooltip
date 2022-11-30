@@ -1,0 +1,1 @@
+!function(){var t;(t=jQuery)(document).ready((function(){t(".wp-block-image-tooltip-popup-wrapper").each((function(o,e){const p=t(e).find(".wp-block-image-tooltip-popup");tippy(e,{content:p[0],allowHTML:!0,placement:"bottom",theme:"light",arrow:!0,trigger:"click",interactive:!0})}))}))}();

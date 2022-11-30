@@ -1,0 +1,104 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://unpkg.com/tippy.js@6/themes/light.css);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.editor-post-featured-image {
+  padding: 0;
+}
+.editor-post-featured-image__container {
+  margin-bottom: 1em;
+  position: relative;
+}
+.editor-post-featured-image .components-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -9px;
+  margin-left: -9px;
+}
+.editor-post-featured-image .components-button + .components-button {
+  display: block;
+  margin-top: 1em;
+}
+.editor-post-featured-image .components-responsive-wrapper__content {
+  max-width: 100%;
+  width: auto;
+}
+
+.editor-post-featured-image__toggle,
+.editor-post-featured-image__preview {
+  display: block;
+  width: 100%;
+  padding: 0;
+  transition: all 0.1s ease-out;
+  box-shadow: 0 0 0 0 var(--wp-admin-theme-color);
+}
+
+.editor-post-featured-image__preview {
+  height: auto;
+}
+
+.editor-post-featured-image__preview:not(:disabled):not([aria-disabled=true]):focus {
+  box-shadow: 0 0 0 4px var(--wp-admin-theme-color);
+}
+
+.editor-post-featured-image__toggle {
+  min-height: 90px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.wp-block-xavadigital-image-tooltip {
+  cursor: pointer;
+}
+.wp-block-xavadigital-image-tooltip .components-responsive-wrapper__content {
+  display: inline-block;
+}
+.wp-block-xavadigital-image-tooltip .components-placeholder__fieldset,
+.wp-block-xavadigital-image-tooltip .components-placeholder__fieldset form {
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.wp-block-image-tooltip-image {
+  width: 100%;
+}
+.wp-block-image-tooltip-image .components-spinner {
+  margin: 0;
+  float: none;
+}
+.wp-block-image-tooltip-image .components-button + .components-button {
+  margin-top: 1em;
+  margin-right: 8px;
+}
+
+.wp-block-image-tooltip-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.wp-block-image-tooltip-wrapper .wp-block-image-tooltip-popup-wrapper {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.wp-block-image-tooltip-wrapper .wp-block-image-tooltip-popup {
+  padding: 10px;
+}
+.wp-block-image-tooltip-wrapper .wp-block-image-tooltip-popup .wp-block-image-tooltip-message {
+  width: 350px;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
